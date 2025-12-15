@@ -1,6 +1,6 @@
 # Snapchat Memory Downloader
 
-This Python script helps you download all your Snapchat memories from a JSON export.  
+Recently, Snapchat introduced a **5GB limit on Memories**, so if you want a complete backup of all your memories, you need to download your data manually. This Python script helps you download all your Snapchat memories from a JSON export.  
 
 ---
 
@@ -23,3 +23,9 @@ python3 download_snapchat.py
 - Internet connection (to download media files)
 - urllib (comes with Python standard library)
 - Access to the JSON export from Snapchat
+
+## Getting Your Snapchat Data
+1. Open Snapchat and go to Settings → My Data.
+2. Request your Memories and select JSON formatting.
+3. Snapchat will email you a link to download a ZIP file containing your exported data.
+4. Extract the ZIP file and locate the JSON file to use with this script.
