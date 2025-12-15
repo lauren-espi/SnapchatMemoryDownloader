@@ -27,7 +27,7 @@ for i, item in enumerate(media_items, start=1):
         continue
 
     filepath = os.path.join(OUTPUT_DIR, filename)
-    print(f"Downloading {filename} → GiraDrive")
+    print(f"Downloading {filename} → Drive")
 
     try:
         urllib.request.urlretrieve(url, filepath)
