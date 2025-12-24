@@ -4,7 +4,7 @@ import urllib.request
 from datetime import datetime
 
 JSON_FILE = "C:\\Users\\lalap\\Downloads\\mydata~1766430268992\\json\\memories_history.json"   # Path to the Snapchat JSON file you downloaded
-OUTPUT_DIR = "D:\\HighSchool\\Snapchat Mems"  # Where you want your videos/images to be saved
+OUTPUT_DIR = "D:\Snapchat Memories"  # Where you want your videos/images to be saved
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
